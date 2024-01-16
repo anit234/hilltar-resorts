@@ -1,0 +1,30 @@
+.container{
+    background: #1f2e46;
+   height: 12vh !important;
+    padding: 16px 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    font-family: Roboto, sans-serif;
+    letter-spacing: .0178571429em;
+    color: #a4b6d1;
+}
+
+ul{
+display: flex;
+li{
+list-style-type: none;
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+justify-content: space-evenly;
+align-items: center;
+
+margin-right: 45px;
+ i{
+  display: flex;
+  margin-right: 6px;
+}
+}
+
+}
