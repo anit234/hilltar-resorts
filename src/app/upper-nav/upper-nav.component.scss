@@ -1,10 +1,13 @@
-@import '../commom-scss/_variable.scss';
+// @import '../commom-scss/_variable.scss';
+@import '../commom-scss/variable.scss';
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
 
 *{
 margin: 0px;
 padding: 0px;
 }
-.container{
+.upper-container{
 background-color: $background-color;
 display: flex;
 color: $primary-color;

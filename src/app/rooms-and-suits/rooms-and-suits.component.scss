@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+// styles.scss or styles.css
+@import '~bootstrap-icons/font/bootstrap-icons.css';
+
+.room-heading{
+ h2{
+ font-family: 'Playball', cursive;;
+    font-weight: 700;
+    font-size: 28px;
+margin-bottom: 0px;
+}
+}
+
+.sub-container{
+ display: flex;
+justify-content: space-between;
+margin-top: 72px;
+align-items: center;
+}
+
+.side-button{
+i{
+    padding: 9px;
+    border-radius: 50px;
+    background: green;
+    color: white;
+    border: none;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+}
+
+@media screen and (max-width: 767px) {
+  /* Your styles for this breakpoint go here */
+  .sub-container {
+    display: block;
+}
+.side-button{
+margin-left:280px;
+ i{
+   padding: 5px;
+    border-radius: 40px;
+    background: green;
+    color: white;
+    border: none;
+    margin-right: 6px;
+   
+}
+
+}
+
+}
+
+@media screen and (min-width: 787px) and (max-width: 1679px){
+  img {
+   height: 350px;
+}
+ 
+}
